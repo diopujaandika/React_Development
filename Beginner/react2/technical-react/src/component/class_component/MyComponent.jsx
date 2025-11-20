@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 
 class MyComponent extends React.Component {
     render() {
-        return <p>Hello, class component!</p>;
+        return <p className='text-3xl text-red-500 font-bold'>Hello, class component!</p>;
     }
 }
 
