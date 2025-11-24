@@ -7,6 +7,6 @@ import UseSayHello from './component/component_properties/UseSayHello_Component.
 createRoot(document.getElementById('root')).render(
     <div>
       <App/>
-      <UseSayHello/>
+      <UseSayHello/> 
     </div>
 )
