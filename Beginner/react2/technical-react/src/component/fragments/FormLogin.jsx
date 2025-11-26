@@ -1,4 +1,5 @@
-import Button from "../catalog_component/button/Button"
+import Button from "../catalog_component/button/Button";
+import InputForm from "../catalog_component/input/Index";
 
 const FormLogin = () => {
     return (
