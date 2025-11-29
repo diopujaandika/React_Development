@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+ 
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(224, 224, 224);
+}
+
+/*App Style*/
+.app-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    height: 100vh;
+    margin: 10px;
+}
+.note-container{
+    display: flex;
+    flex-direction: row;
+}
+
+/*Header Style*/
+.header-app{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+.title-logo {
+    margin-left: 22px;
+}
+.search-note{
+    flex: 2;
+    padding-left: 12px;
+    color: black;
+    font-size: 15px;
+    margin: 22px 22px;   
+    border-radius: 12px;
+}
+
+/*Add Note Container*/
+.add_note-container{
+    flex: 2;
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+/*Section Container*/
+.section-container{
+    flex: 6;
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+/*Heading*/
+h1{
+    color: white;
+    background-color: #2D3E50;
+    padding: 0px 5px;
+}
+
+/*Input Style*/
+.input-text{
+    width: 80%;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+.input-textarea{
+    border-radius: 12px;
+    padding: 12px;
+    width: 80%;
+    height: 30vh;
+    font-size: 15px;
+}
+
+/*Button Style*/
+.button {
+    padding: .8rem 2.5rem;
+    margin-block-start: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    color: white; 
+    border: 3px solid transparent;
+    border-radius: 999px;
+    background-color: #2D3E50;
+    cursor: pointer;
+    transition: all .15s ease-in;
+}
+button, .button {
+    padding: .8rem 2.5rem;
+    margin-block-start: 1rem;
+    margin-bottom:12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    color: white; 
+    border: 3px solid transparent;
+    background-color: #2D3E50;
+    cursor: pointer;
+    transition: all .15s ease-in;
+}
+button:hover {
+    border: 3px solid #2D3E50;
+    color: #2D3E50;
+    background-color: transparent;
+}
+.button:hover {
+    border: 3px solid #2D3E50;
+    color: #2D3E50;
+    background-color: transparent;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    border: 1px solid black;
+    border-radius: 12px;
+    margin: 2px;
+}
