@@ -1,4 +1,4 @@
-import SayHello from './1_propsTypes/1_propsTypes1';
+import SayHello from './1_propsTypes/1_propTypesString';
 import './App.css';
 import PropTypes from 'prop-types';
 
